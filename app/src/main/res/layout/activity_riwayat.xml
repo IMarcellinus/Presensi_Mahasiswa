@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="#2146C7">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Riwayat Presensi"
+                android:gravity="left"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:layoutManager="LinearLayoutManager"
+        android:id="@+id/recycleview"
+        android:padding="5dp"
+        android:layout_width="420dp"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/list_riwayat"/>
+<!--    <ListView-->
+<!--        android:id="@+id/listView"-->
+<!--        android:padding="5dp"-->
+<!--        android:layout_width="420dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:listitem="@layout/list_riwayat">-->
+
+<!--    </ListView>-->
+</LinearLayout>
