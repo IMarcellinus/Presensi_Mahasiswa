@@ -10,6 +10,6 @@ Aplikasi Android untuk Presensi Mahasiswa menggunakan Retrofit dan Java
 
 ![alt text](ssan/login.jpeg)
 
-- Halaman Login
+- Halaman Dashboard
 
 ![alt text](ssan/loginuser.jpeg)
